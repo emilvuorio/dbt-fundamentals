@@ -3,4 +3,5 @@ select
     first_name,
     last_name
 
-from `dbt-tutorial`.jaffle_shop.customers
+
+from raw.jaffle_shop.orders
